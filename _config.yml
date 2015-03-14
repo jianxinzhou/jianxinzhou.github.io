@@ -1,9 +1,9 @@
 # Site settings
-title: Fantasy
-username: guochy2012
-email: guochy2012@gmail.com
+title: Acjx
+username: jianxinzhou
+email: zhoujx0219@163.com
 description: "Succinctly"
-url: "http://zhoujianxin.github.io"
+url: "http://jianxinzhou.github.io"
 baseurl: ""
 
 markdown: kramdown

@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "理解智能指针的两重境界"
+title:  "Smart Pointer"
 date:   2014-05-20 17:18:34
 categories: cpp
 ---
-
-这是我在知乎回答的一个问题：[《如何理解智能指针？》](http://www.zhihu.com/question/20368881/answer/25835250)
 
 ##自动化管理资源
 

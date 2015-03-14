@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "由定时器的封装谈面向对象和基于对象编程的区别"
+title:  "面向对象编程与基于对象编程"
 date:   2014-08-10 12:18:34
 categories: cpp
 ---
@@ -70,8 +70,6 @@ int main(int argc, const char *argv[])
     return 0;
 }
 {% endhighlight %}
-
-（这里稍微抱怨下，当初学习tiemrfd系列定时器时，这个模型非常简单，但是中文社区几乎没找到文章能把它阐释清楚，很多文章只是简单介绍几个函数，就把man手册中的代码粘上作为demo）
     
 这个定时器的逻辑非常简单，我们设置的间隔时间为1s，所以每隔1s，对应的timerfd就变为可读，此时poll返回，执行第44行，用户的操作。
     

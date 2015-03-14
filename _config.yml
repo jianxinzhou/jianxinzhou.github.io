@@ -1,0 +1,19 @@
+# Site settings
+title: Fantasy
+username: guochy2012
+email: guochy2012@gmail.com
+description: "Succinctly"
+url: "http://zhoujianxin.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: /:title
+
+comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : guochy2012
+
+sass:
+  sass_dir: public/css
+  style: :compressed

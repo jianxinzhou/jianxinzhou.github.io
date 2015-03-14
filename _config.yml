@@ -12,7 +12,7 @@ permalink: /:title
 comments :
     provider : duoshuo
     duoshuo : 
-      short_name : guochy2012
+      short_name : jianxinzhou
 
 sass:
   sass_dir: public/css

@@ -15,7 +15,7 @@ The function twoSum should return indices of the two numbers such that they add 
 
 You may assume that each input would have exactly one solution.
 
-Input: numbers={2, 7, 11, 15}, target=9
+Input: numbers={2, 7, 11, 15}, target=9<br>
 Output: index1=1, index2=2
 
 ##Solution
@@ -31,7 +31,7 @@ We could reduce the runtime complexity of looking up a value to O(1) using a has
 that maps a value to its index.
 
 ##Code
-```java
+{% highlight java %}
 public int[] twoSum(int[] numbers, int target) { 
    Map<Integer, Integer> map = new HashMap<>(); 
    for (int i = 0; i < numbers.length; i++) { 
@@ -43,5 +43,5 @@ public int[] twoSum(int[] numbers, int target) {
    } 
    throw new IllegalArgumentException("No two sum solution"); 
 }
-```
+{% endhighlight %}
 
